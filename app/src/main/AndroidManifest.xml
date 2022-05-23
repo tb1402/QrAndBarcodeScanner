@@ -7,8 +7,6 @@
 
     <!--Normal permissions-->
     <uses-permission android:name="android.permission.VIBRATE"/>
-    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
-    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
 
     <!--Dangerous permissions-->
     <uses-permission android:name="android.permission.CAMERA"/>
@@ -25,11 +23,6 @@
         android:theme="@style/AppTheme"
         android:name=".App"
         >
-
-        <meta-data
-            android:name="io.sentry.dsn"
-            android:value="https://09f3022eb19f4fa7ba332b1f44188ff1@o432234.ingest.sentry.io/5384638"
-            />
 
         <provider
             android:name="androidx.core.content.FileProvider"
