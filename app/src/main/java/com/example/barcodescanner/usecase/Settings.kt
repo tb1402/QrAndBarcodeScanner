@@ -125,7 +125,6 @@ class Settings(private val context: Context) {
         get() = get(Key.ERROR_REPORTS, BuildConfig.ERROR_REPORTS_ENABLED_BY_DEFAULT)
         set(value) {
             set(Key.ERROR_REPORTS, value)
-            Logger.isEnabled = value
         }
 
     fun isFormatSelected(format: BarcodeFormat): Boolean {

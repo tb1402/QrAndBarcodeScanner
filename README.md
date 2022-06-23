@@ -4,9 +4,14 @@
 
 QR & Barcode Scanner is an ad-free, open-source scanner app. It uses the [ZXing][zxing] scanning library.
 
+## Changes in this fork
+
+The sentry dependency and tracking was removed. Now only the stacktrace is printed.
+The access and change wifi state permissions are still required to be able to connect to a network, when a wifi qr code is scanned.
+
 ## Download
 
-<a href="https://play.google.com/store/apps/details?id=org.barcodescanner"><img alt="Get it on Google Play" src="https://github.com/wewewe718/QrAndBarcodeScanner/blob/develop/images/google_play/badge.png" height="60"/></a>   <a href="https://appgallery7.huawei.com/#/app/C102717909"><img alt="Explore it on AppGallery" src="https://github.com/wewewe718/QrAndBarcodeScanner/blob/develop/images/app_gallery/badge.png" height="60"/></a>   <a href="https://www.f-droid.org/en/packages/com.example.barcodescanner/"><img alt="Get it on FDroid" src="https://github.com/wewewe718/QrAndBarcodeScanner/blob/develop/images/fdroid_badge.png" height="60"/></a>   <a href="https://github.com/wewewe718/QrAndBarcodeScanner/releases"><img alt="Get it on Github" src="https://github.com/wewewe718/QrAndBarcodeScanner/blob/develop/images/get-it-on-github.png" height="60"/></a>
+See the releases section.
 
 ## Screenshots
 
